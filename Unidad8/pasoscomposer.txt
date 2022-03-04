@@ -1,0 +1,2 @@
+copiar en la raíz del proyecto el composer.phar y el composer.json, en shell del xampp ir a la raíz del proyecto y 
+escribir php composer.phar install.
