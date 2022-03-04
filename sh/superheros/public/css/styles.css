@@ -1,0 +1,101 @@
+ul {
+  list-style-type: none;
+}
+
+li,
+ul,
+figure {
+  padding: 3px;
+  margin: 3px;
+}
+
+nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  color: white;
+  background: #1e2222;
+}
+
+.card {
+  background: rgb(119, 6, 194);
+  padding: 8px;
+  margin: 0.5rem;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  *transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.button {
+  pointer-events: auto;
+  cursor: pointer;
+  background: #e7e7e7;
+  border: none;
+  padding: 1.5rem 3rem;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  position: relative;
+  display: inline-block;
+}
+
+button,
+a {
+  text-decoration: none;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  background-color: rgb(64, 222, 255);
+  padding: 10px;
+  color: rgb(34, 33, 33);
+}
+
+form {
+  display: flex;
+}
+
+input {
+  min-width: 1rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.columns-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.columns-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.columns-7 {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.columns-8 {
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.columns-9 {
+  grid-template-columns: repeat(9, 1fr);
+}
